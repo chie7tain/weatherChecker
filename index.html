@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Check Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+  </head>
+
+  <section class="app-container">
+  <header class="header-container">
+     <h1>Check Weather</h1>
+  </header>
+    <div>
+      <form id="form-city" >
+        <div class="location-container">
+            <input class="location-input" type="text" required autocomplete="off">
+            <label class="label" for="location-input">
+              <span class="content-name">
+              Location(city,village,anyplace!)
+              </span>
+            </label>
+         </div>
+
+          <button class="check-btn" type="submit" id="check">Check</button>
+        </div>
+      </form>
+      <section id="result">
+
+      </section>
+    </div>
+  </section>
+  <body>
+    <script src="app.js"></script>
+  </body>
+</html>
